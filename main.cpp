@@ -82,6 +82,7 @@ int main() {
         else if (number_of_guests <= 6){
 
             nr_tables = 1;
+            cout<<"\n Number of tables: " << nr_tables;
             break;
 
         }
@@ -156,7 +157,7 @@ int main() {
 
 
          else {
-            cout<<"\n Needs: " <<inv_cards <<" invitation cards, " << nr_sweets <<" sweets, "<<nr_tables<<"tables, "<< coke_cases <<" coke cases, "<<water_cases <<" .";
+            cout<<"\n Needs: " <<inv_cards <<" invitation cards, " << nr_sweets <<" sweets, "<<nr_tables<<"tables, "<< coke_cases <<" coke cases, "<<water_cases <<" water cases.";
             cout<<"\n Cost of invitation cards:" << inv_card_cost<<" NOK.";
             cout<<"\n Cost of drinks: " << coke_cost <<" NOK for coke and " << water_cost <<" NOK for water"<<", a total of "<<total_bev<<" NOK.";
             break;  
