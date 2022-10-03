@@ -20,9 +20,9 @@ int main() {
     int water_cost= 0;
     int total_bev= 0;
 
-    
-    meny: 
     cout<<"\n\t Wedding Planning Assistant is pleased to be at your service!";
+    
+    meny:
     cout<<"\n\n1. Enter number of invited guests.";
     cout<<"\n2. Determine the number of invitation cards and sweets";
     cout<<"\n3. Determine the number of tables needed";
