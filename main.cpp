@@ -167,7 +167,7 @@ int main() {
         exit(0);
 
     default: 
-        cout<<"!!!Please enter a vaild input!!!";
+        cout<<"!!!Please enter a valid input!!!";
 
   }
   goto meny;
